@@ -16,5 +16,10 @@ namespace App02_TipoPGXF.TipoPagina.Carrosel
         {
             InitializeComponent();
         }
+
+        private void MudarPagina (object sender, EventArgs args)
+        {
+            App.Current.MainPage = new Navigation.Pagina1();
+        }
     }
 }

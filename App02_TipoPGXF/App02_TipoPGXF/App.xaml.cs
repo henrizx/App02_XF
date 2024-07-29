@@ -10,7 +10,7 @@ namespace App02_TipoPGXF
         {
             InitializeComponent();
 
-            MainPage = new App02_TipoPGXF.TipoPagina.Carrosel.TipoPagina3();
+            MainPage = new App02_TipoPGXF.TipoPagina.Carrosel.Introducao();
         }
 
         protected override void OnStart()
